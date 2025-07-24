@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="transfer.css">
+</head>
+<body>
+<section style="height: auto">
+
+    <div>
+        <h2>Transfer School Staff</h2>
+        <form id="transferStaffForm">
+            <label for="staffNumber">Staff Number:</label>
+            <select id="staffNumber" name="staffNumber" required>
+                <option value="">Select Staff</option>
+                <option value="S001">S001 – HOD</option>
+                <option value="S020">S020 – Mod Coordinator</option>
+                <option value="S002">S002 – Supervisor</option>
+            </select>
+            <br><br>
+            <label for="department">Department:</label>
+            <select id="department" name="department" required>
+                <option value="">Select Department</option>
+                <option value="SOC">SOC – School of Computing</option>
+                <option value="SB">SB – School of Business</option>
+                <option value="PO">PO – Principal’s Office</option>
+                <option value="DPO">DPO – Deputy Principal’s Office</option>
+            </select>
+            <br><br>
+            <button type="submit">Transfer</button>
+        </form>
+    </div>
+</section>
+<script src="transfer.js"></script>
+</body>
+</html>
